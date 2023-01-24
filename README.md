@@ -1,12 +1,13 @@
-# Custom Catalogue Applications
+# DKP Custom Catalog Application: Harbor
 
-Your custom catalogue has been built and is ready to deploy to DKP. Set the relevant namespace for either workspace or project, depending on the scope you chose, as an environmental variable:
+1. Set the K8s context to the DKP management cluster.
+2. Set the namespace to the relevant project as an environmental variable:
 
 ```bash
 export NAMESPACE=[your_namespace]
 ````
 
-Copy and past the following into the terminal to deploy the catoalogue:
+Copy and past the following into the terminal to deploy to the DKP catalog:
 
 ```bash
 kubectl apply -f - <<EOF
