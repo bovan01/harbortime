@@ -22,7 +22,7 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  timeout: 20s
+  timeout: 1m0s
   url: https://github.com/bovan01/harbortime
 EOF
 ```
